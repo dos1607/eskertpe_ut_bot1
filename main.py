@@ -127,7 +127,7 @@ def add_hw(message):
     add_homework(hw_date, subject, text_hw)
     bot.send_message(message.chat.id, "✅ Үй тапсырмасы сәтті қосылды!")
 
-if _name_ == "_main_":
+if __name__ == "_main_":
     init_db()
     seed_schedule()
     print("Бот жұмысқа дайын ✅")
